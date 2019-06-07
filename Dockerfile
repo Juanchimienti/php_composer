@@ -1,5 +1,5 @@
 from php:7.0-apache
-RUN apt-get update ; apt-get install -y libicu-dev g++ git wget zlib1g-dev &&\
+RUN apt-get update ; apt-get install -y libicu-dev g++ git wget zlib1g-dev zip &&\
     docker-php-ext-configure intl &&\
     docker-php-ext-install intl zip
 
