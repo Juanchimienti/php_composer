@@ -1,2 +1,2 @@
-# php70_composer
-php 7.0 with composer and intl module
+# php_composer
+php with composer and intl module for building EB images
