@@ -1,4 +1,4 @@
-from php:8.1.8-cli
+from php:8.2.7-cli
 RUN apt-get update ; apt-get install -y libicu-dev g++ git wget zlib1g-dev libzip-dev&&\
     docker-php-ext-configure intl &&\
     docker-php-ext-install intl zip
